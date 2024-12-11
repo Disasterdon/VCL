@@ -1,0 +1,80 @@
+[_ngcontent-serverApp-c330]:root {
+  --cx-color-background: #f5f5f5;
+  --cx-color-text: #292929;
+  --cx-color-inverse: #fff;
+  --cx-color-transparent: transparent;
+  --cx-color-primary: #e3131b;
+  --cx-color-secondary: #fe6400;
+  --cx-color-tertiary: #366ac4;
+  --cx-color-success: #019a5f;
+  --cx-color-info: #5389e6;
+  --cx-color-warning: #ffb300;
+  --cx-color-danger: #ff3100;
+  --cx-color-light: #f5f5f5;
+  --cx-color-dark: #292929;
+  --cx-color-visual-focus: #5389e6;
+  --cx-color-middle-grey: #4c4e4e;
+  --cx-color-nav-dark: #0e0e0e;
+  --cx-color-nav-grey: #a8a8a8;
+  --cx-color-border-red: #eb0011;
+  --cx-color-dark-hover: #e6e6e6;
+}
+.main-navigation__header[_ngcontent-serverApp-c330] {
+  display: inline-block;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__header[_ngcontent-serverApp-c330] {
+    display: block;
+  }
+}
+.main-navigation__arrow-right[_ngcontent-serverApp-c330] {
+  display: none;
+  margin-right: -8px;
+}
+.main-navigation__all-categories[_ngcontent-serverApp-c330] {
+  width: 256px;
+  height: 40px;
+  background: transparent linear-gradient(165deg, #ff5f2f, #e60008) 0 0
+    no-repeat padding-box;
+  border-radius: 4px 4px 0 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.main-navigation__all-categories[_ngcontent-serverApp-c330]
+  cx-icon[_ngcontent-serverApp-c330] {
+  font-size: 24px;
+  font-weight: 600;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__all-categories[_ngcontent-serverApp-c330] {
+    display: none;
+  }
+}
+.main-navigation__all-categories-title[_ngcontent-serverApp-c330] {
+  padding-left: 13px;
+  vertical-align: text-bottom;
+}
+.main-navigation__header--trigger[_ngcontent-serverApp-c330]:hover
+  ung-main-category-navigation
+  .main-navigation--header {
+  display: block;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__header[_ngcontent-serverApp-c330]
+    ung-main-category-navigation
+    .main-navigation--header {
+    display: block;
+  }
+}
+.main-navigation__all-categories-icon[_ngcontent-serverApp-c330] {
+  vertical-align: text-bottom;
+}
+.main-navigation__all-categories-icon[_ngcontent-serverApp-c330]
+  .icon[_ngcontent-serverApp-c330] {
+  height: 20px;
+  width: 20px;
+}
